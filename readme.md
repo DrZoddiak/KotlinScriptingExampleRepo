@@ -11,3 +11,8 @@ If you need to update the scripting host simply replace the jar in libs/ with th
 
 You may need to [update the scripting-host](https://github.com/DrZoddiak/KotlinScriptingExampleRepo/blob/f18f04da012412fd60a1da4c2d24a2d027362a56/build.gradle.kts#L13)'
 s filename if you've replaced the file located in libs/
+
+## How do I use the scripts?
+KotlinScript is a plugin that acts as a scripting host for your scripts.
+
+Simply copy your scripts into the directory the plugin creates `/config/scripting-host/scripts/` and your scripts (when written correctly) will load!
