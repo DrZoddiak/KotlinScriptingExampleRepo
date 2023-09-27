@@ -1,5 +1,5 @@
 import me.zodd.*
 
-onPlayerJoin {
-    Logger.info("Woah!")
+onServerStarted {
+    Logger.info("Hello World!")
 }
