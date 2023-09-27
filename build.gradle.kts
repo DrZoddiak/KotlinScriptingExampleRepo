@@ -7,7 +7,7 @@ repositories {
 }
 
 //Should be the only thing that might need changing
-val runtimeVersion = "0.1.0"
+val runtimeVersion = "0.1.1"
 
 dependencies {
     //todo: Replace this with a repo
